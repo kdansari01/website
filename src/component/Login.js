@@ -47,9 +47,17 @@ export const Login = () => {
             // redirect home
             setGlobal(prev=>({...prev, user:userData, isLogin:true }))
             navigate('/')
+            setTimeout(()=>alert("login successfull")
+            ,100)
+
+            setTimeout(()=>
+              <img src="https://freepngimg.com/thumb/emoji/47426-8-smiley-hd-free-transparent-image-hd.png" alt="ads"/>
+            ,3000)
+            
             
         }
     }
+    
   }
  
 

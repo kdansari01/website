@@ -13,9 +13,9 @@ export const Navbar = () => {
 
 ">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/">
-            {/* <img className="img-fluid" src="./image/logo.png"/> */}
-          </a>
+          <NavLink className="navbar-brand" to="/">
+            <img className="img-fluid logo-nav" src="https://freepngimg.com/thumb/facebook/59127-telegram-sticker-groot-facebook-of-baby-guardians-thumb.png"/>
+          </NavLink>
           <button
             className="navbar-toggler"
             type="button"
@@ -52,9 +52,9 @@ export const Navbar = () => {
                 </a>
                 <ul className="dropdown-menu bg-info">
                   <li>
-                    <a className="dropdown-item " href="/">
+                    <NavLink className="dropdown-item " to="/Memory1">
                       2019
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
                     <a className="dropdown-item" href="/">

@@ -70,7 +70,21 @@ export const SingUp = () => {
        localStorage.setItem("userData",JSON.stringify([...olderUserData, inpData]))
        
       }
-      
+    setTimeout(()=>
+      setInpData({
+        firstName: "",
+    lastName: "",
+    userName: "",
+    Dob: "",
+    email: "",
+    number: "",
+    password: "",
+    confirmPassword: "",
+      })
+
+    ,2000)  
+    setTimeout(()=>alert("sign up successfull"),1000)
+   
 
   };
 

@@ -8,6 +8,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css"
 import { SingUp } from "./component/SingUp";
 import { createContext, useState } from "react";
+import { Memory1 } from "./component/Memory1";
 // import {NameForm} from "./Form"
 
 const userLoginData = { userdata:[], user:{} }
@@ -29,6 +30,8 @@ function App() {
           <Route path="/Login" exact element={<Login/>} />
           <Route path="/SingUp" exact element={<SingUp/>}/>
           <Route path="/ContactUs" exact element={<ContactUs/>}/>
+          
+          <Route path="/Memory1" exact element={<Memory1/>}/>
 
 
 
